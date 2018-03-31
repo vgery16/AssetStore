@@ -11,6 +11,7 @@ public class ColliderActionsInspector : Editor
     private string[] CallBacks = { "On Collider Enter", "On Collider Exit", "On Collider Stay" };
     private int CallBackIndex = 0;
 
+    
     private ColliderActions _actions;
     public ColliderActions actions
     {
@@ -31,8 +32,7 @@ public class ColliderActionsInspector : Editor
         GUILayout.Space(10);
         GUIBody();
         GUILayout.Space(10);
-
-        serializedObject.ApplyModifiedProperties();
+        
     }
 
     public void GUIBody()
@@ -92,10 +92,9 @@ public class ColliderActionsInspector : Editor
 
     private void ShowProperty(string name)
     {
-        SerializedObject ser = new SerializedObject(actions);
-        SerializedProperty prop = ser.FindProperty(name);
+        SerializedProperty prop = serializedObject.FindProperty(name);
         EditorGUILayout.PropertyField(prop);
-        ser.ApplyModifiedProperties();
+        serializedObject.ApplyModifiedProperties();
     }
 
 
