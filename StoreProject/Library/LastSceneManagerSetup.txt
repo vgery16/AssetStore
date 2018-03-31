@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/ColliderActions3D_SampleScene.unity
+- path: Assets/OnEventActions/Scenes/SceneActions_SampleScene.unity
   isLoaded: 1
   isActive: 1
