@@ -6,15 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/ColliderActions2D_SampleScene.unity
+    path: Assets/OnEventActions/Scenes/ColliderActions2D_SampleScene.unity
     guid: 8f8bdbde2f15c4e44ac2cd02318cc371
   - enabled: 1
-    path: Assets/Scenes/ColliderActions3D_SampleScene.unity
+    path: Assets/OnEventActions/Scenes/ColliderActions3D_SampleScene.unity
     guid: 213c11e238f786d4da51629c0ed16d4b
   - enabled: 1
-    path: Assets/Scenes/LifeCycleActions_SampleScene.unity
+    path: Assets/OnEventActions/Scenes/CustamActions_SampleScene.unity
+    guid: d1d02b678b6923b44a58c92b8f07effa
+  - enabled: 1
+    path: Assets/OnEventActions/Scenes/LifeCycleActions_SampleScene.unity
     guid: feee42543113b3d408a0c3681b3f8b7f
   - enabled: 1
-    path: Assets/Scenes/SceneActions_SampleScene.unity
+    path: Assets/OnEventActions/Scenes/SceneActions_SampleScene.unity
     guid: 752cefa6c04af8145ae0336a54c49fc8
-  m_configObjects: {}
